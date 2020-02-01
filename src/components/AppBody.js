@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const Child = () => {
+export const AppBody = () => {
   const name = "is Working!";
 
   return (
@@ -11,4 +11,4 @@ export const Child = () => {
   );
 };
 
-export default Child;
+export default AppBody;
