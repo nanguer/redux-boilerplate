@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 
-export const AppBody = () => {
+const AppBody = () => {
   const name = "is Working!";
 
   return (
     <div className="app">
       <h1>React - Redux Application Boilerplate</h1>
-      <p>Application: {name}</p>
+      <p>
+        Application:
+        {name}
+      </p>
     </div>
   );
 };
